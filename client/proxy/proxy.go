@@ -36,6 +36,7 @@ import (
 	"github.com/halfcoke/golib/errors"
 	frpIo "github.com/halfcoke/golib/io"
 	"github.com/halfcoke/golib/pool"
+
 	fmux "github.com/hashicorp/yamux"
 	pp "github.com/pires/go-proxyproto"
 	"golang.org/x/time/rate"

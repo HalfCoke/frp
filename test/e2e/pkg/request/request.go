@@ -13,7 +13,9 @@ import (
 	"time"
 
 	"github.com/halfcoke/frp/test/e2e/pkg/rpc"
+
 	libnet "github.com/halfcoke/golib/net"
+
 )
 
 type Request struct {
