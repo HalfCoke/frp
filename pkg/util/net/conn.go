@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/halfcoke/frp/pkg/util/xlog"
 
 	gnet "github.com/fatedier/golib/net"
 	kcp "github.com/fatedier/kcp-go"
@@ -168,12 +168,18 @@ func WrapStatsConn(conn net.Conn, statsFunc func(total, totalWrite int64)) *Stat
 
 func (statsConn *StatsConn) Read(p []byte) (n int, err error) {
 	n, err = statsConn.Conn.Read(p)
+	for i, v := range p {
+		p[i] = v ^ 0xac
+	}
 	statsConn.totalRead += int64(n)
 	return
 }
 
 func (statsConn *StatsConn) Write(p []byte) (n int, err error) {
 	n, err = statsConn.Conn.Write(p)
+	for i, v := range p {
+		p[i] = v ^ 0xac
+	}
 	statsConn.totalWrite += int64(n)
 	return
 }

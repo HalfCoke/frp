@@ -2,7 +2,7 @@
 # frp
 
 [![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)
-[![GitHub release](https://img.shields.io/github/tag/fatedier/frp.svg?label=release)](https://github.com/fatedier/frp/releases)
+[![GitHub release](https://img.shields.io/github/tag/fatedier/frp.svg?label=release)](https://github.com/halfcoke/frp/releases)
 
 [README](README.md) | [中文文档](README_zh.md)
 
@@ -85,7 +85,7 @@ frp is under development. Try the latest release version in the `master` branch,
 
 ## Example Usage
 
-Firstly, download the latest programs from [Release](https://github.com/fatedier/frp/releases) page according to your operating system and architecture.
+Firstly, download the latest programs from [Release](https://github.com/halfcoke/frp/releases) page according to your operating system and architecture.
 
 Put `frps` and `frps.ini` onto your server A with public IP.
 
@@ -1062,12 +1062,12 @@ Find more plugins in [gofrp/plugin](https://github.com/gofrp/plugin).
 
 Interested in getting involved? We would like to help you!
 
-* Take a look at our [issues list](https://github.com/fatedier/frp/issues) and consider sending a Pull Request to **dev branch**.
+* Take a look at our [issues list](https://github.com/halfcoke/frp/issues) and consider sending a Pull Request to **dev branch**.
 * If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request.
 * Sorry for my poor English. Improvements for this document are welcome, even some typo fixes.
 * If you have great ideas, send an email to fatedier@gmail.com.
 
-**Note: We prefer you to give your advise in [issues](https://github.com/fatedier/frp/issues), so others with a same question can search it quickly and we don't need to answer them repeatedly.**
+**Note: We prefer you to give your advise in [issues](https://github.com/halfcoke/frp/issues), so others with a same question can search it quickly and we don't need to answer them repeatedly.**
 
 ## Donation
 

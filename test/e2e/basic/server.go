@@ -5,11 +5,11 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/fatedier/frp/test/e2e/framework"
-	"github.com/fatedier/frp/test/e2e/framework/consts"
-	"github.com/fatedier/frp/test/e2e/pkg/port"
-	"github.com/fatedier/frp/test/e2e/pkg/request"
-	clientsdk "github.com/fatedier/frp/test/e2e/pkg/sdk/client"
+	"github.com/halfcoke/frp/test/e2e/framework"
+	"github.com/halfcoke/frp/test/e2e/framework/consts"
+	"github.com/halfcoke/frp/test/e2e/pkg/port"
+	"github.com/halfcoke/frp/test/e2e/pkg/request"
+	clientsdk "github.com/halfcoke/frp/test/e2e/pkg/sdk/client"
 
 	. "github.com/onsi/ginkgo"
 )
