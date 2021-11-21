@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/consts"
-	"github.com/fatedier/frp/pkg/metrics/mem"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/halfcoke/frp/pkg/config"
+	"github.com/halfcoke/frp/pkg/consts"
+	"github.com/halfcoke/frp/pkg/metrics/mem"
+	"github.com/halfcoke/frp/pkg/util/log"
+	"github.com/halfcoke/frp/pkg/util/version"
 
 	"github.com/gorilla/mux"
 )

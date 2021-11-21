@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fatedier/frp/client"
-	"github.com/fatedier/frp/test/e2e/pkg/utils"
+	"github.com/halfcoke/frp/client"
+	"github.com/halfcoke/frp/test/e2e/pkg/utils"
 )
 
 type Client struct {

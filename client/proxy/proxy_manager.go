@@ -6,10 +6,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fatedier/frp/client/event"
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/halfcoke/frp/client/event"
+	"github.com/halfcoke/frp/pkg/config"
+	"github.com/halfcoke/frp/pkg/msg"
+	"github.com/halfcoke/frp/pkg/util/xlog"
 
 	"github.com/fatedier/golib/errors"
 )

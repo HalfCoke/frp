@@ -19,8 +19,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/halfcoke/frp/pkg/util/util"
+	"github.com/halfcoke/frp/pkg/util/xlog"
 )
 
 type Manager struct {
