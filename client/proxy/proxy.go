@@ -33,9 +33,9 @@ import (
 	frpNet "github.com/halfcoke/frp/pkg/util/net"
 	"github.com/halfcoke/frp/pkg/util/xlog"
 
-	"github.com/fatedier/golib/errors"
-	frpIo "github.com/fatedier/golib/io"
-	"github.com/fatedier/golib/pool"
+	"github.com/halfcoke/golib/errors"
+	frpIo "github.com/halfcoke/golib/io"
+	"github.com/halfcoke/golib/pool"
 	fmux "github.com/hashicorp/yamux"
 	pp "github.com/pires/go-proxyproto"
 	"golang.org/x/time/rate"

@@ -21,7 +21,7 @@ import (
 	_ "github.com/halfcoke/frp/assets/frpc"
 	"github.com/halfcoke/frp/cmd/frpc/sub"
 
-	"github.com/fatedier/golib/crypto"
+	"github.com/halfcoke/golib/crypto"
 )
 
 func main() {

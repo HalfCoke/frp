@@ -48,7 +48,7 @@ import (
 	"github.com/halfcoke/frp/server/proxy"
 	"github.com/halfcoke/frp/server/visitor"
 
-	"github.com/fatedier/golib/net/mux"
+	"github.com/halfcoke/golib/net/mux"
 	fmux "github.com/hashicorp/yamux"
 )
 

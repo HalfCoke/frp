@@ -25,7 +25,7 @@ import (
 	"github.com/halfcoke/frp/pkg/util/vhost"
 	"github.com/halfcoke/frp/server/metrics"
 
-	frpIo "github.com/fatedier/golib/io"
+	frpIo "github.com/halfcoke/golib/io"
 )
 
 type HTTPProxy struct {

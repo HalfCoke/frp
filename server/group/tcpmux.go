@@ -24,7 +24,7 @@ import (
 	"github.com/halfcoke/frp/pkg/util/tcpmux"
 	"github.com/halfcoke/frp/pkg/util/vhost"
 
-	gerr "github.com/fatedier/golib/errors"
+	gerr "github.com/halfcoke/golib/errors"
 )
 
 // TCPMuxGroupCtl manage all TCPMuxGroups

@@ -11,8 +11,8 @@ import (
 	"github.com/halfcoke/frp/pkg/util/log"
 	"github.com/halfcoke/frp/pkg/util/util"
 
-	"github.com/fatedier/golib/errors"
-	"github.com/fatedier/golib/pool"
+	"github.com/halfcoke/golib/errors"
+	"github.com/halfcoke/golib/pool"
 )
 
 // Timeout seconds.

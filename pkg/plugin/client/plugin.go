@@ -20,7 +20,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/halfcoke/golib/errors"
 )
 
 // Creators is used for create plugins to handle connections.

@@ -26,7 +26,7 @@ import (
 
 	"github.com/halfcoke/frp/pkg/util/xlog"
 
-	gnet "github.com/fatedier/golib/net"
+	gnet "github.com/halfcoke/golib/net"
 	kcp "github.com/fatedier/kcp-go"
 )
 

@@ -29,7 +29,7 @@ import (
 	frpLog "github.com/halfcoke/frp/pkg/util/log"
 	"github.com/halfcoke/frp/pkg/util/util"
 
-	"github.com/fatedier/golib/pool"
+	"github.com/halfcoke/golib/pool"
 )
 
 var (

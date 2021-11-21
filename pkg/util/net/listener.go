@@ -19,7 +19,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/halfcoke/golib/errors"
 )
 
 // Custom listener

@@ -27,8 +27,8 @@ import (
 	frpNet "github.com/halfcoke/frp/pkg/util/net"
 	"github.com/halfcoke/frp/server/metrics"
 
-	"github.com/fatedier/golib/errors"
-	frpIo "github.com/fatedier/golib/io"
+	"github.com/halfcoke/golib/errors"
+	frpIo "github.com/halfcoke/golib/io"
 )
 
 type UDPProxy struct {
