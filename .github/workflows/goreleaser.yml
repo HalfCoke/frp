@@ -25,10 +25,15 @@ jobs:
         run: |
           ./package.sh
 
+      - name: check State
+        run: |
+          git status
+          git diff
+
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2
         with:
           version: latest
           args: release --rm-dist --release-notes=./Release.md
         env:
-          GITHUB_TOKEN: ${{ secrets.GPR_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}

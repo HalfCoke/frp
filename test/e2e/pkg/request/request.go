@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/halfcoke/frp/test/e2e/pkg/rpc"
 	libnet "github.com/fatedier/golib/net"
+	"github.com/halfcoke/frp/test/e2e/pkg/rpc"
 )
 
 type Request struct {
